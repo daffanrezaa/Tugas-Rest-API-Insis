@@ -32,17 +32,23 @@ Base URL: `http://localhost:3000/api/obat`
 
 ## Cara Menjalankan
 
+*Catatan: Repositori ini dengan sengaja tidak menyertakan file `package.json` dan folder `node_modules`, sehingga Anda perlu melakukan inisialisasi dan instalasi manual.*
+
 1. Pastikan Anda telah menginstal [Node.js](https://nodejs.org/).
 2. Buka terminal di direktori proyek ini.
-3. Jalankan perintah berikut untuk menginstal dependensi:
+3. Inisialisasi proyek Node.js:
    ```bash
-   npm install
+   npm init -y
    ```
-4. Jalankan server:
+4. Instal framework Express:
    ```bash
-   npm start
+   npm install express
    ```
-5. Server akan berjalan di `http://localhost:3000/`. Anda bisa mengujinya menggunakan Postman, Insomnia, atau Thunder Client.
+5. Jalankan server:
+   ```bash
+   node server.js
+   ```
+6. Server akan berjalan di `http://localhost:3000/`. Anda bisa mengujinya menggunakan Postman, Insomnia, atau Thunder Client.
 
 ## Dokumentasi (Images)
 
