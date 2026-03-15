@@ -4,6 +4,13 @@
 
 Ini adalah proyek contoh REST API sederhana untuk manajemen data obat di sebuah apotek, dibuat menggunakan Node.js dan Express.js. API ini tidak terhubung ke database nyata (menggunakan array in-memory) sehingga cocok untuk tujuan pembelajaran.
 
+## Anggota Kelompok
+
+| No | Nama                          | NRP        |
+|----|-------------------------------|------------|
+| 1  | Ahmad Rafi Fadhillah Dwiputra | 5027241068 |
+| 2  | Aditya Reza Daffansyah        | 5027241034 |
+
 ## Fitur (Endpoints)
 
 Base URL: `http://localhost:3000/api/obat`
